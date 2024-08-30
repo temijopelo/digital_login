@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container_hero flex flex-row h-screen">
+        <div class="logo_section w-[40%] mx-auto p-14">
+            <h3 class="text-[#3751FE] text-lg font-bold mb-14">Digital</h3>
+
+            <h1 class="text-[#3751FE] text-4xl font-bold leading-normal mb-5">Artificial Intelligence Driving Results
+                For The
+                Travel
+                Industry</h1>
+
+            <p class="mb-10">Welcome back! Please login to your account.</p>
+
+            <div class="flex flex-col gap-2">
+
+                <input class="border-2 p-3" type="email" name="email" id="email" placeholder="Email Address">
+
+                <input class="border-2 p-3" type="password" name="password" id="password" placeholder="Password">
+            </div>
+            <div class="flex flex-row justify-between py-5 mb-8">
+
+                <p> <input type="checkbox" name="" id=""> Remember Me</p>
+
+                <a class="self-auto" href="">Forgot Password?</a>
+            </div>
+
+
+            <div class="mb-10">
+                <button class="py-2 px-5 border-2 border-[#3751FE] bg-[#3751FE] text-white drop-shadow-lg mr-5"
+                    type="button">Login</button>
+                <button class="py-2 px-5 border-2 border-[#3751FE] text-[#3751FE]" type="button">Sign Up</button>
+
+            </div>
+
+            <div>
+                <ul class="flex justify-between">
+                    <li><a href="">Or login with</a></li>
+                    <li><a class="text-[#3751FE] font-bold" href="">Facebook</a></li>
+                    <li><a class="text-[#3751FE] font-bold" href="">LinkedIn</a></li>
+                    <li><a class="text-[#3751FE] font-bold" href="">Google</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hero-links w-[60%] bg-[#E5E5E569]">
+            <ul class="flex p-10 justify-around m-auto w-[80%]">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Pricing</a></li>
+            </ul>
+
+            <img class="w-[80%] m-auto" src="img/clip-message-sent 1.svg" alt="" srcset="">
+        </div>
+    </div>
+</body>
+
+</html>
